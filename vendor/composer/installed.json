@@ -1,0 +1,32 @@
+[
+    {
+        "name": "izomorry4/bracket_checker",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/izomorry4/bracket_checker.git",
+            "reference": "8fed72afb1a4e7e8a974a6a6996172c6f84b0034"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/izomorry4/bracket_checker/zipball/8fed72afb1a4e7e8a974a6a6996172c6f84b0034",
+            "reference": "8fed72afb1a4e7e8a974a6a6996172c6f84b0034",
+            "shasum": ""
+        },
+        "time": "2018-01-10T20:59:42+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "proprietary"
+        ],
+        "authors": [
+            {
+                "name": "izomorry4",
+                "email": "izomorry4@yandex.ru"
+            }
+        ],
+        "description": "First task in Otus"
+    }
+]

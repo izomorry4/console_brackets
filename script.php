@@ -7,9 +7,19 @@
  * Time: 21:24
  */
 
+require 'vendor/autoload.php';
+
 $file = '';
 while (!$file) {
     echo "Enter file with brackets: ";
     $file = trim(fgets(STDIN));
 }
-echo file_get_contents($file);
+$str = file_get_contents($file);
+
+try {
+    BracketChecker::IsCorrect($str);
+}
+catch(Exception $e){
+    $e->getMessage();
+}
+
